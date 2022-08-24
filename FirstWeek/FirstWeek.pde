@@ -119,17 +119,11 @@ void keyPressed()
 void mousePressed()
 {
   if( mouseX < 33 ) //Red ribbon
-  {
     red = (height - mouseY) / 2;
-  }
   else if( mouseX < 66 && mouseX >= 33 ) //Green ribbon
-  {
     green = (height - mouseY) / 2;
-  }
   else if( mouseX < 99 && mouseX >= 66 ) //Blue ribbon
-  {
     blue = (height - mouseY) / 2;
-  }
   
   //Mouse is over the size slider
   if( mouseY < 30 && mouseX > 165 && mouseX < 785 )
